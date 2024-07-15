@@ -8,6 +8,8 @@ MongoDB로 데이터를 저장하고, Express와 Node.js로 서버 로직을 처
 
 vite(https://ko.vitejs.dev/guide/)
 tailwind(https://tailwindcss.com/docs/guides/vite)
+mongodb()
+insomnia(https://insomnia.rest/)
 
 ```bash
 npm create vite@latest
@@ -37,4 +39,5 @@ npm init -y
 npm i express
 npm i nodemon
 npm i mongoose
+npm i dotenv
 ```
