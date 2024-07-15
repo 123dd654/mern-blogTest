@@ -1,0 +1,12 @@
+#header{
+    border-bottom: 1px solid #ccc;
+    .container{
+        margin: 0 auto;
+        height: inherit;
+        width: 1200px;
+
+        .logo{
+            display: flex;
+        }
+    }
+}
