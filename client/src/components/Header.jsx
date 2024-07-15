@@ -2,6 +2,7 @@ import React from "react";
 import { IoSearch } from "react-icons/io5";
 import { FaRegLightbulb } from "react-icons/fa";
 import { GiQuillInk } from "react-icons/gi";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -12,21 +13,21 @@ export default function Header() {
           <h1 className="text-xl font-normal text-blue-950">Coding Diary</h1>
         </div>
         <nav className="flex space-x-4">
-          <a href="#" className="text-blue-950">
+          <Link to="/" className="text-blue-950">
             Home
-          </a>
-          <a href="#" className="text-blue-950">
+          </Link>
+          <Link to="/sign-up" className="text-blue-950">
             Join
-          </a>
-          <a href="#" className="text-blue-950">
+          </Link>
+          <Link to="/sign-in" className="text-blue-950">
             Login
-          </a>
-          <a href="#" className="text-blue-950">
+          </Link>
+          <Link to="#" className="text-blue-950">
             Board
-          </a>
-          <a href="#" className="text-blue-950">
+          </Link>
+          <Link to="#" className="text-blue-950">
             Cate
-          </a>
+          </Link>
         </nav>
         <div className="icon flex gap-3">
           <IoSearch size={20} />
