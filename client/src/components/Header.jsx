@@ -8,7 +8,7 @@ export default function Header() {
     <header className="bg-[#F9F4E1]">
       <section className="max-w-7xl mx-auto flex justify-between items-center py-3 px-6 border-b-2">
         <div className="flex items-center">
-          <GiQuillInk />
+          <GiQuillInk size={24} />
           <h1 className="text-xl font-normal text-blue-950">Coding Diary</h1>
         </div>
         <nav className="flex space-x-4">
@@ -29,8 +29,8 @@ export default function Header() {
           </a>
         </nav>
         <div className="icon flex gap-3">
-          <IoSearch />
-          <FaRegLightbulb />
+          <IoSearch size={20} />
+          <FaRegLightbulb size={20} />
         </div>
       </section>
     </header>
