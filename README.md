@@ -8,8 +8,9 @@ MongoDB로 데이터를 저장하고, Express와 Node.js로 서버 로직을 처
 
 vite(https://ko.vitejs.dev/guide/)
 tailwind(https://tailwindcss.com/docs/guides/vite)
-mongodb()
+mongodb(https://cloud.mongodb.com/)
 insomnia(https://insomnia.rest/)
+redux-toolkit(https://redux-toolkit.js.org/introduction/getting-started)
 
 ```bash
 npm create vite@latest
@@ -18,6 +19,9 @@ npm install
 npm run dev
 npm i react-router-dom
 npm i react-icons
+
+npm install @reduxjs/toolkit
+npm install react-redux
 ```
 
 ```bash
@@ -40,4 +44,6 @@ npm i express
 npm i nodemon
 npm i mongoose
 npm i dotenv
+npm i bcryptjs
+npm i jsonwebtoken
 ```
