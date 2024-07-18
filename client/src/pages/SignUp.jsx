@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import OAuth from "../components/OAuth";
 
 const Signup = () => {
   const [formData, setFormData] = useState();
@@ -136,6 +137,7 @@ const Signup = () => {
               </button>
             </div>
           </form>
+          <OAuth />
           <div className="mt-6">
             <span>계정이 있나요?</span>
             <Link to="/sign-in" className="ml-2 text-gray-600">
